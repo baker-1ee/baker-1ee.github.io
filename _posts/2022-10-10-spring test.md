@@ -1,7 +1,6 @@
 ---
 title: "Spring Boot Test"
 date: 2022-10-10 19:00:00 -0900
-categories: Spring
 ---
 
 # SpringBoot Test 에 대해 알아보자

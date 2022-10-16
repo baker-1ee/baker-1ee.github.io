@@ -41,7 +41,7 @@ public class User {
 
 ##### UserRepository
 
-```JAVA
+```java
 public interface UserRepository {
 
     User save(User user);

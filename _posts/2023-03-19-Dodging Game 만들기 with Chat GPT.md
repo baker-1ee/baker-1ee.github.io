@@ -33,6 +33,8 @@ Chat GPT 와 만든 게임을 실행하면 아래와 같이 실행된다.
 {% include recoding.html %}
 ```
 
+이구래
+
 
 
 

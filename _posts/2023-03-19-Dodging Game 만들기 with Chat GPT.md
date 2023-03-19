@@ -18,3 +18,16 @@ Chat GPT 와의 개발은 기대 이상이었으며, 질문 이해나 문맥 이
 
 ![chat_gpt1](../assets/images/2023-03-19-chatgpt1.png)
 ![chat-gpt2](../assets/images/2023-03-19-chatgpt2.png)
+
+## 결과물
+Chat GPT 와 만든 게임을 실행하면 아래와 같이 실행된다.
+
+
+{% raw %}
+{% include recoding.html mp4="recoding.mp4" %}
+{% endraw %}
+
+
+
+
+

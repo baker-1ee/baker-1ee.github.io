@@ -16,5 +16,5 @@ Chat GPT 와의 개발은 기대 이상이었으며, 질문 이해나 문맥 이
 
 대화 내용은 아래와 같다.
 
-![chat_gpt1](2023-03-19-chatgpt1.png)
-![chat-gpt2](2023-03-19-chatgpt2.png)
+![chat_gpt1](../assets/images/2023-03-19-chatgpt1.png)
+![chat-gpt2](../assets/images/2023-03-19-chatgpt2.png)

@@ -23,9 +23,10 @@ Chat GPT 와의 개발은 기대 이상이었으며, 질문 이해나 문맥 이
 Chat GPT 와 만든 게임을 실행하면 아래와 같이 실행된다.
 
 
-{% raw %}
+```liquid
 {% include recoding.html mp4="recoding.mp4" %}
-{% endraw %}
+```
+
 
 
 

@@ -1,5 +1,3 @@
-# Dodging Game 만들기 with Chat GPT
-
 ## 개요
 예전에 Pygame 라이브러리를 사용하여 간단한 닷지 게임을 만들어 본 적이 있는데, python 언어에 익숙하지도 않았고, 라이브러리들도 생소해서 구글링을 하면서 어찌어찌 동작하는 간단한 게임을 개발했었던 경험이 있다. 
 
@@ -18,5 +16,5 @@ Chat GPT 와의 개발은 기대 이상이었으며, 질문 이해나 문맥 이
 
 대화 내용은 아래와 같다.
 
-![chat_gpt1](chatgpt1.png)
-![chat-gpt2](chatgpt2.png)
+![chat_gpt1](2023-03-19-chatgpt1.png)
+![chat-gpt2](2023-03-19-chatgpt2.png)

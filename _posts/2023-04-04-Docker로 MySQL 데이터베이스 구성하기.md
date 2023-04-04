@@ -7,4 +7,4 @@ docker compose 파일은 프로젝트 디렉토리 하위에 docker 디렉토리
 
 도커로 DB 를 구성하면 아래와 같이 간단하게 컨테이너만 실행 or 중지 할 수 있어서 좋다.
 
-<img src="assets/images/docker.png" alt="docker">
+![docker](../assets/images/docker.png)

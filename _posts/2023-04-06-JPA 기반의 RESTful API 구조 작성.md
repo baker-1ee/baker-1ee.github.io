@@ -8,4 +8,4 @@ Pastry 프로젝트에서 사용할 기술 스택은 일단 아래와 같이 정
 
 4. RESTful API를 사용하여 클라이언트와 서버 간의 통신을 구현하자.
 
-[git commit](https://github.com/baker-1ee/Pastry/commit/a673cf5bf862338f2346b7e1327e319e94de2542)
+https://github.com/baker-1ee/Pastry/commit/a673cf5bf862338f2346b7e1327e319e94de2542

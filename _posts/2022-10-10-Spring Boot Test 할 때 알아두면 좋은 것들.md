@@ -1,6 +1,4 @@
-# SpringBoot Test 에 대해 알아보자
-
-[스프링부트 공식 문서](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing) 참고
+[스프링부트 공식 문서](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing) 를 참고하여 spring boot test 할 때, 알아두면 좋은 것들을 정리해보자.
 
 
 
@@ -16,34 +14,33 @@
 
 - SpringApplication 을 사용하여 ApplicationContext를 로드한다. 
 - 기본적으로 @SpringBootTest 만으로는 서버를 실행하지 않기 때문에, web environment test 를 하려면 추가 속성이 필요하다.
-- 어플리케이션의 설정과 모든 빈을 로드하기 때문에 시간이 오래 걸리므로 단위 테스트 보다는 통합 테스트에 적합
-
-> JUnit5부터는 @RunWith, @ExtendWith 등을 추가해줄 필요가 없다.
+- 어플리케이션의 설정과 모든 빈을 로드하기 때문에 시간이 오래 걸리므로 단위 테스트 보다는 통합 테스트에 적합하다.
+  - JUnit5부터는 @RunWith, @ExtendWith 등을 추가해줄 필요가 없다.
 
 
 
 ## @AutoConfigureMockMvc
 
-- Mock 테스트 시 필요한 의존성을 제공
+- Mock 테스트 시 필요한 의존성을 제공한다.
 
   ```java
   @Autowired
   MockMvc mvc;
   ```
 
-- @WebMvcTest 가 아닌 @SpringBootTest 에서도 Mock 테스트를 가능하게 해주는 역할
+- @WebMvcTest 가 아닌 @SpringBootTest 에서도 Mock 테스트를 가능하게 해주는 역할을 한다.
 
 
 
 ## @WebMvcTest
 
-- 웹 계층에만 집중하고 전체 ApplicationContext 를 시작하지 않고자 할 때 사용
-- Controller 가 예상대로 동작하는지 테스트하기 위해 사용
-- WebApplication 과 관련된 빈들만 스캔하여 등록하기 때문에 @SpringBootTest 보다 빠름
+- 웹 계층에만 집중하고 전체 ApplicationContext 를 시작하지 않고자 할 때 사용한다.
+- Controller 가 예상대로 동작하는지 테스트하기 위해 사용한다.
+- WebApplication 과 관련된 빈들만 스캔하여 등록하기 때문에 @SpringBootTest 보다 빠르다.
 
 
 
-## web endpoints test with Spring MVC
+## Web endpoints test with Spring MVC
 
 > @SpringBootTest + @AutoConfigureMockMvc 의 조합으로 Controller 테스트
 

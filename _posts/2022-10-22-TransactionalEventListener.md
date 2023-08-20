@@ -1,4 +1,4 @@
-[지난 시간에 EventListener 적용](https://zeemoong.github.io/EventListener/) 까지는 진행해봤는데, 이번 시간에는 TransactionalEventListener 와의 차이를 비교해보자.
+[지난 시간에 EventListener 적용](https://baker-1ee.github.io/EventListener/) 까지는 진행해봤는데, 이번 시간에는 TransactionalEventListener 와의 차이를 비교해보자.
 
 SignUpService 의 signUp 메소드에서는 신규 유저 엔터티를 생성하여 저장하고, signUpEvent 를 발행 후 끝난다.
 signUpEventListener 에서는 SendEmailService 에서 메일을 전송하고, AggregateUserService 에서 유저 현황을 재집계 처리를 한다.
@@ -212,7 +212,7 @@ sky@naver.com 회원 추가하여 유저 현황 재집계 완료하였습니다.
 
 
 
-[git 링크](https://github.com/zeemoong/spring/tree/feature/101)
+[git 링크](https://github.com/baker-1ee/spring/tree/feature/101)
 
 
 

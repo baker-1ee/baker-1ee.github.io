@@ -1,6 +1,4 @@
-# EventListener
-
-Spring 에서의 Event listener 는 무엇이고, 사용하면 어떠한 이점이 있는지 간단한 코드를 작성해 비교해보면서 정리해보자.
+Spring 에서의 EventListener 는 무엇이고, 사용하면 어떠한 이점이 있는지 간단한 코드를 작성해 비교해보면서 정리해보자.
 
 우선 spring event listener 에서 말하는 event 란 어떤 이벤트가 발생했을 때, 리스너에게 전달이 필요한 데이터를 저장할 클래스 정도로 보면 될 것 같다.
 

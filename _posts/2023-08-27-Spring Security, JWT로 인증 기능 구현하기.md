@@ -373,16 +373,16 @@ public class SecurityConfiguration {
 
 # Test
 * 회원가입 
-![jwt_test_1.png](assets/images/20230827/jwt_test_1.png)
+![jwt_test_1.png](../assets/images/20230827/jwt_test_1.png)
 * 로그인
-![jwt_test_2.png](assets/images/20230827/jwt_test_2.png)
+![jwt_test_2.png](../assets/images/20230827/jwt_test_2.png)
 * 토큰 없이 demo api 호출해보기 
-![jwt_test_3.png](assets/images/20230827/jwt_test_3.png)
+![jwt_test_3.png](../assets/images/20230827/jwt_test_3.png)
 * 토큰 넣고 demo api 호출해보기
-![jwt_test_4.png](assets/images/20230827/jwt_test_4.png)
+![jwt_test_4.png](../assets/images/20230827/jwt_test_4.png)
 
 # References
-- https://youtu.be/KxqlJblhzfI?si=Cpg96tgt0z8GVkLw
-- https://seanwasere.com/generate-random-hex/
-- https://jwt.io/
+- [youtube](https://youtu.be/KxqlJblhzfI?si=Cpg96tgt0z8GVkLw)
+- [generate-random-hex](https://seanwasere.com/generate-random-hex/)
+- [jwt.io](https://jwt.io/)
 

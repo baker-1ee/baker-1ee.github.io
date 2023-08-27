@@ -2,6 +2,7 @@
 세션방식 인증 대신 토큰 방식 인증을 적용하려고 하며, `JWT(JSON Web Token)`와 `Spring Security`를 이용해서 인증 기능을 구현하려고 한다.
 
 - 의존성 추가 (build.gradle)
+
 ```java
 //security
 implementation 'org.springframework.boot:spring-boot-starter-security'
@@ -13,6 +14,7 @@ implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
 ```
 
 - 회원가입 및 로그인 api
+
 ```java
 @RestController
 @RequestMapping("/api/v1/auth")
@@ -35,6 +37,7 @@ public class AuthenticationController {
 ```
 
 - 인증을 담당할 서비스
+
 ```java
 @Service
 @RequiredArgsConstructor
@@ -74,6 +77,7 @@ public class AuthenticationService {
 ```
 
 - Spring Security 관련 설정 빈 등록
+
 ```java
 @Configuration
 @RequiredArgsConstructor
@@ -109,6 +113,7 @@ public class ApplicationConfig {
 ```
 
 - JWT 생성 및 검증을 담당할 서비스
+
 ```java
 @Service
 @RequiredArgsConstructor
@@ -175,6 +180,7 @@ public class JwtService {
 ```
 
 - JWT 관련 설정
+
 ```yaml
 security:
   jwt:
@@ -184,6 +190,7 @@ security:
 ```
 
 - User
+
 ```java
 @Entity
 @Getter
@@ -272,6 +279,7 @@ public class User implements UserDetails {
 ```
 
 - Role
+
 ```java
 public enum Role {
     USER,
@@ -280,6 +288,7 @@ public enum Role {
 ```
 
 - UserRepository
+
 ```java
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
@@ -291,6 +300,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 ```
 
 - JWT 인증 필터를 OncePerRequestFilter 로 구현하여 JWT 검증 및 SecurityContextHolder 설정 기능 구현
+
 ```java
 @Component
 @RequiredArgsConstructor
@@ -327,6 +337,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 ```
 
 - SecurityFilterChain 설정하여 JWT 검증 필터 등록 및 인증 대상 url 정의
+
 ```java
 @Configuration
 @EnableWebSecurity
